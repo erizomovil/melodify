@@ -1,0 +1,118 @@
+.inspect-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inspect-container-card-1 {
+    text-align: center;
+    padding: 2em;
+}
+
+.inspect-container-card {
+    margin-top: 3em;
+    background: linear-gradient(to right, #ff5f6d, #ffc371);
+    padding: 5em;
+    border-radius: 10px;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.inspect-container-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inspect-container-card-text {
+    width: 40%;
+}
+
+.inspect-container-card-image {
+    width: 50%;
+}
+
+.inspect-container-card-audio {
+    padding: 2em;
+    align-self: center;
+}
+
+.inspect-image {
+    width: 100%;
+    height: 100%;
+}
+
+.inspect-song-list {
+    margin: 3em;
+    width: 100%;
+    overflow-x: auto;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 60%;
+    margin-top: 3em;
+    overflow: hidden;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.inspect-song-list-song:hover td {
+    background-color: #f0f0f0;
+    transform: scale(1.1);
+}
+
+.inspect-song-list-song:hover img {
+    transform: scale(1.1);
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.inspect-table-image {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+@media screen and (max-width: 600px) {
+    .inspect-container-card {
+        padding: 1em;
+        max-height: 70vh;
+    }
+
+    .inspect-container-card-text,
+    .inspect-container-card-image {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .inspect-container-card {
+        padding: 0em;
+    }
+
+    .inspect-container-card-text,
+    .inspect-container-card-image {
+        width: 100%;
+    }
+}

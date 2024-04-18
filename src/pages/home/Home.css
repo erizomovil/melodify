@@ -1,0 +1,39 @@
+.home-container-first{
+    background-color: black;
+    text-align: center;
+    padding: 2em;
+}
+.home-container-second{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.home-column {
+    flex-basis: 30%; 
+}
+
+.home-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.home-column ul li {
+    margin-bottom: 10px;
+}
+
+.home-container-carousel{
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .home-column {
+        flex-basis: 100%; 
+        margin-bottom: 20px; 
+    }
+}
