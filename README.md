@@ -54,7 +54,7 @@ And there's more to our page:
 
 
 * [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
+* React
 * [![VisualStudioCode][VisualStudioCode.io]][VisualStudioCode-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
@@ -110,6 +110,7 @@ Project Link: [https://github.com/erizomovil/melodify](https://github.com/erizom
 * [Visual Studio Code](https://choosealicense.com)
 * [readme inspiration](https://github.com/othneildrew/Best-README-Template/blob/master/README.md)
 * [Chat GPT](https://chat.openai.com)
+* [React](https://es.react.dev/)
 * [GitHub Pages](https://pages.github.com)
 * [Bootstrap](https://getbootstrap.com/)
 * [React Icons](https://react-icons.github.io/react-icons/search)
