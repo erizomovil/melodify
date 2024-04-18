@@ -13,9 +13,6 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
@@ -43,20 +40,7 @@ Its designed for the use of many people with an introductory component "the caro
 And there's more to our page:
 * We also show our top 5 songs, authors and genres
 * We have a dedicated page for you to search in our Catalogue of songs
-* You should implement DRY principles to the rest of your life :smile:
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-### Built With
-
-
-* [![Next][Next.js]][Next-url]
-* React
-* [![VisualStudioCode][VisualStudioCode.io]][VisualStudioCode-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* And another one dedicated to listening to your song
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
