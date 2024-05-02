@@ -1,5 +1,5 @@
 import Home from "./pages/home/Home"
-import Discobery from "./pages/discobery/Discobery";
+import Discovery from "./pages/discovery/Discovery";
 import Inspect from "./pages/inspect/Inspect";
 import "./App.css"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -11,7 +11,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/home" element={<Home />} />
-          <Route path="/discobery" element={<Discobery />} />
+          <Route path="/Discovery" element={<Discovery />} />
           <Route path="/inspect" element={<Inspect />} />
           <Route path="/inspect/*" element={<Inspect />} />
           <Route path="*" element={<Home />} />
