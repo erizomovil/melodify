@@ -12,9 +12,9 @@ function List() {
 
     return (
     
-        <div className="discobery-grid-container">
+        <div className="discovery-grid-container">
             {music.map((song,id) => (
-                <div className="discobery-grid-container-div" key={id} onClick={() => handleSongClick(song.songId)} style={{ cursor: 'pointer' }}>
+                <div className="discovery-grid-container-div" key={id} onClick={() => handleSongClick(song.songId)} style={{ cursor: 'pointer' }}>
                     <img src={`../../../public/assets/images/${song.img}`} alt={song.title}/>
                     <div>{song.tittle}</div>
                     <div>{song.author}</div>
