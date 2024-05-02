@@ -24,6 +24,13 @@
     margin: 0;
     display: flex;
   }
+
+  .navbar-nav-big{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
   
   .navbar-nav li {
     margin-right: 20px;
@@ -50,6 +57,9 @@
     background-color: #fff;
     cursor: pointer;
   }
+  .navbar-menu-icon{
+    display: none;
+  }
   
   @media (max-width: 768px) {
     .container {
@@ -65,6 +75,9 @@
         left: 0;
         right: 0;
       }
+      .navbar-hide{
+        display: none;
+      }
     
       .navbar li {
         margin-right: 0;
@@ -72,6 +85,9 @@
       }
     
       .navbar-toggle {
+        display: block;
+      }
+      .navbar-menu-icon{
         display: block;
       }
     }

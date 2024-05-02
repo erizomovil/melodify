@@ -3,6 +3,7 @@ import './Inspect.css'
 import Header from "../../components/header/Header"
 import music from "../../models/music/music";
 import Footer from "../../components/footer/Footer";
+import { useEffect } from 'react';
 
 function Inspect() {
     const location = useLocation();
@@ -18,14 +19,19 @@ function Inspect() {
         window.location.reload();
     };
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <>
             <Header />
+
             <div className="inspect-container">
                 <div className="inspect-container-card-1">
                     <div className="inspect-container-card">
                         <div className="inspect-container-card-image">
-                            <img src={song ? `/assets/images/${song.img}`: 'N/A'} alt={song ? song.tittle: 'N/A'} className="inspect-image" />
+                            <img src={song ? `/assets/images/${song.img}` : 'N/A'} alt={song ? song.tittle : 'N/A'} className="inspect-image" />
                         </div>
                         <div className="inspect-container-card-content">
                             <div className="inspect-container-card-text">
