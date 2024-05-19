@@ -1,10 +1,10 @@
 let music=[
     {
         songId: 1,
-        tittle: "TwoMoons",
-        author: "BoyWithUke",
+        tittle: "Legends Collide",
+        author: "LG",
         genere: "indie-rock?",
-        src: "BoyWithUke-TwoMoons.mp3",
+        src: "Legends_Collide.mp3",
         img: "music2.jpg"
     },
     {
@@ -12,7 +12,7 @@ let music=[
         tittle: "Understand",
         author: "BoyWithUke",
         genere: "indie-rock?",
-        src: "BoyWithUke-Understand.mp3",
+        src: "Understand.mp3",
         img: "music2.jpg"
     },
     {
