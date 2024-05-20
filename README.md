@@ -45,11 +45,13 @@ And there's more to our page:
 * We also show our top 5 songs, authors and genres
 * We have a dedicated page for you to search in our Catalogue of songs
 * You should implement DRY principles to the rest of your life :smile:
+* We also have now add our very own rss, look for the rss icon in the footer :mag:
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+Of course, this page is not perfect so i would like for you to grade it very well so i know what needs to be change!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+![image](https://github.com/erizomovil/melodify/assets/124067989/3c0a6dc6-c5fd-4010-9b2f-ca5ef12fe2ef)
 
 
 ### Built With
@@ -69,6 +71,7 @@ Of course, no one template will serve all projects since your needs may be diffe
 ## Getting Started
 
 You may need to download this proyect from my github and unpack it.
+Or go to <a href=https://melodify-d278a.web.app/>Melodify.web</a>
 
 ### Prerequisites
 
