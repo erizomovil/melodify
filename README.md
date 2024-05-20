@@ -36,7 +36,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 This page is an online music web from which you can lisen to your favorites song with out those pesky ads.
 Its designed for the use of many people with an introductory component "the carousel" that features the top 3 songs currently avialable to lisen.
@@ -52,7 +51,7 @@ Of course, this page is not perfect so i would like for you to grade it very wel
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="center">
-![image](https://github.com/erizomovil/melodify/assets/124067989/3c0a6dc6-c5fd-4010-9b2f-ca5ef12fe2ef)
+<img src="https://github.com/erizomovil/melodify/assets/124067989/3c0a6dc6-c5fd-4010-9b2f-ca5ef12fe2ef" alt="Texto alternativo">
 </p>
 
 ### Built With
