@@ -51,8 +51,9 @@ Of course, this page is not perfect so i would like for you to grade it very wel
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<p align="center">
 ![image](https://github.com/erizomovil/melodify/assets/124067989/3c0a6dc6-c5fd-4010-9b2f-ca5ef12fe2ef)
-
+</p>
 
 ### Built With
 
@@ -118,5 +119,6 @@ Project Link: [https://github.com/erizomovil/melodify](https://github.com/erizom
 * [GitHub Pages](https://pages.github.com)
 * [Bootstrap](https://getbootstrap.com/)
 * [React Icons](https://react-icons.github.io/react-icons/search)
+* [Firebase](https://console.firebase.google.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
