@@ -123,7 +123,7 @@ function PlayLists() {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        if (playName != "" && authorName != "" && songIds.length != 0) {
+        if (playName != "" && authorName != "" && songIds.length > 0) {
             await playListService.addPlayList(playName, authorName, songIds);
         }
         emptyPlaylist();

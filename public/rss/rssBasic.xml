@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>RSS de melodify</title>
+    <link rel="self">https://melodify-d278a.web.app/rss/rssBasic.xml</link>
+    <link rel="melodify">https://melodify-d278a.web.app/home</link>
+    <description>rss de la pagina de melodify</description>
+    <language>es-es</language>
+    <lastBuildDate>Mon, 20 May 2024 12:00:00 +0000</lastBuildDate>
+
+    <item>
+      <id>http://melodify-d278a.web.app/noticia1</id>
+      <title>Cancion Legends Collide</title>
+      <link>https://melodify-d278a.web.app/home</link>
+      <description>una nueva cancion de la mano de LG</description>
+      <pubDate>Mon, 20 May 2024 12:00:00 +0000</pubDate>
+    </item>
+
+    <item>
+      <id>http://melodify-d278a.web.app/noticia2</id>
+      <title>Cancion Understand</title>
+      <link>https://melodify-d278a.web.app/discovery</link>
+      <description>una nueva cancion de la mano de BoyWithUke</description>
+      <pubDate>Mon, 20 May 2024 12:00:00 +0000</pubDate>
+    </item>
+
+    <item>
+      <id>http://melodify-d278a.web.app/noticia3</id>
+      <title>Cancion Trash Rock</title>
+      <link>https://melodify-d278a.web.app/discovery</link>
+      <description>una nueva cancion de la mano de Jorge</description>
+      <pubDate>Mon, 20 May 2024 12:00:00 +0000</pubDate>
+    </item>
+
+    <item>
+      <id>http://melodify-d278a.web.app/noticia4</id>
+      <title>Nueva playlist</title>
+      <link>https://melodify-d278a.web.app/discovery</link>
+      <description>una nueva playlist fue creada</description>
+      <pubDate>Mon, 20 May 2024 18:25:00 +0000</pubDate>
+    </item>
+
+    <item>
+      <id>http://melodify-d278a.web.app/noticia5</id>
+      <title>Dreams fue eliminada</title>
+      <link>https://melodify-d278a.web.app/discovery</link>
+      <description>la playlist dreams fue eliminada</description>
+      <pubDate>Mon, 20 May 2024 18:26:00 +0000</pubDate>
+    </item>
+
+  </channel>
+</rss>

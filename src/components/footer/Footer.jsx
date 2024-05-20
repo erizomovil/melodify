@@ -22,7 +22,7 @@ function Footer() {
                                 <a href="#"><i className="bi bi-facebook"></i></a>
                                 <a href="#"><i className="bi bi-twitter-x"></i></a>
                                 <a href="#"><i className="bi bi-instagram"></i></a>
-                                <a href="#" target='blank'><i className="bi bi-rss"></i></a>
+                                <a href="/rss/rssBasic.xml" target='blank'><i className="bi bi-rss"></i></a>
                                 <a href="https://github.com/erizomovil"><i className="bi bi-github"></i></a>
                             </div>
                         </div>

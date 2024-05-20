@@ -1,5 +1,5 @@
 import './Carousel.css'
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import music from "../../models/music/music";
 
 function Carousel() {
@@ -19,7 +19,7 @@ function Carousel() {
             <div id="demo" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src={`../../../public/assets/images/${song1.img}`} alt="SoundWave1" className="d-block w-100" />
+                        <img src={`/assets/images/${song1.img}`} alt="SoundWave1" className="d-block w-100" />
                         <div className="carousel-caption">
                             <div>
                                 <h3>{song1.tittle}</h3>
@@ -30,7 +30,7 @@ function Carousel() {
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={`../../../public/assets/images/${song2.img}`} alt="SoundWave2" className="d-block w-100" />
+                        <img src={`/assets/images/${song2.img}`} alt="SoundWave2" className="d-block w-100" />
                         <div className="carousel-caption">
                             <div>
                                 <h3>{song2.tittle}</h3>
@@ -41,7 +41,7 @@ function Carousel() {
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={`../../../public/assets/images/${song3.img}`} alt="SoundWave3" className="d-block w-100" />
+                        <img src={`/assets/images/${song3.img}`} alt="SoundWave3" className="d-block w-100" />
                         <div className="carousel-caption">
                             <div>
                                 <h3>{song3.tittle}</h3>
